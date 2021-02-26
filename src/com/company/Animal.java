@@ -9,6 +9,6 @@ public class Animal {
 
      void  feed(){
          weight +=1;
-         System.out.println("thx for food");
+         System.out.println("thx for food,bro");
      }
 }
