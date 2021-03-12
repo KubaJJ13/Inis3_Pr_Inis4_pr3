@@ -25,8 +25,8 @@ public class Animal {
 
 
     void  feed(){
-         weight +=1;
-         System.out.println("thanks for food,bro");
+        weight +=1;
+        System.out.println("thanks for food,bro");
         if(weight<=0){
             System.out.println("U can't feed death pet");
 
