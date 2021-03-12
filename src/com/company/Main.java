@@ -1,5 +1,7 @@
 package com.company;
 
+import java.awt.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -25,6 +27,10 @@ public class Main {
         dog.takeForAWalk();
         dog.takeForAWalk();
         dog.feed();
+
+        me.car=new Car("Audi","A3");
+        System.out.println(me.car.model);
+        System.out.println(me.car.producer);
     }
 }
 
