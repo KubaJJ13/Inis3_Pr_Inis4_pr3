@@ -46,7 +46,7 @@ public class Animal {
 
         }
         else{
-            System.out.println("Can't go for a walk with death pet");
+            System.out.println("we can't go for a walk my Man im death");
         }
 
     }
