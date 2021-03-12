@@ -4,17 +4,28 @@ public class Main {
 
     public static void main(String[] args) {
        // write your code here\
+       Human me=new  Human();
+       me.pet=new Animal("cat",3.2,"miluś");
+       //Animal dog = new Animal("cat",3.2,"miluś");
+        System.out.println(me.pet.name);
+        System.out.println(me.pet.species);
 
-       Animal dog = new Animal("cat",3.2,"miluś");
 
 
+       me.pet=new Animal("dog",1.0,"puszek");
+       System.out.println(me.pet.name);
+       System.out.println(me.pet.species);
 
 
-       Human me = new Human();
-       me.FirstName = "Artur";
-       me.LastName = "JJ";
-       me.pet = dog;
-
-       System.out.println("Zwierzak nazywa się: " + me.pet.name);
+        Animal dog = new Animal("dog", 2.0, "Liri");
+        dog.feed();
+        dog.takeForAWalk();
+        dog.takeForAWalk();
+        dog.takeForAWalk();
+        dog.takeForAWalk();
+        dog.takeForAWalk();
+        dog.feed();
     }
 }
+
+
