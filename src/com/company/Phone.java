@@ -13,5 +13,8 @@ public class Phone {
         this.screenSize = screenSize;
         this.operationSystem = operationSystem;
     }
+    public String toString(){
+        return"phone: producer= "+this.producer+this.model;
+    }
 }
 

@@ -23,6 +23,17 @@ public class Animal {
         this.weight=DEFAULT_ANIMAL_WEIGHT;
     }
 
+    public Double getWeight() {
+        //dodatkowy kod
+        return this.weight;
+    }
+
+    public void setWeight(Double weight) {
+        //logi
+        //walidacja danych (weight >0)
+        //czyszczenie keszy
+        this.weight = weight;
+    }
 
     void  feed(){
         weight +=1;
